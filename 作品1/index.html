@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>b站网页</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1923320_xwg3156htzk.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #column1-left {
+            width: 880px;
+            height: 387px;
+            overflow: hidden;
+            position: relative;
+            margin: 0px;
+            position: relative;
+        }
+
+
+        #biao {
+            position: absolute;
+            right: 12px;
+            bottom: 12px;
+            z-index: 10;
+            width: 180px;
+        }
+
+        .biao_1 {
+            width: 10px;
+            height: 10px;
+            border: 2px solid transparent;
+            border-radius: 50%;
+            background-color: #fff;
+            vertical-align: middle;
+            cursor: pointer;
+            transition: all .2s;
+            float: left;
+            margin-right: 5px;
+        }
+
+        #column1-banner {
+            height: 202px;
+            width: 2300px;
+            position: absolute;
+            transition: 2s;
+            left: 0px;
+        }
+
+        #column1-banner img {
+            float: left;
+        }
+
+        .column4-right-box {
+            width: 265px;
+            height: 273px;
+            overflow: hidden;
+            position: relative;
+            margin: 0px auto;
+            position: relative;
+        }
+
+        .column4-right-bottom {
+            width: 795px;
+            height: 273px;
+            position: absolute;
+            transition: 2s;
+            left: 0px;
+        }
+
+        .column4img {
+            float: left;
+        }
+
+        .column4-right-li {
+            position: absolute;
+            right: 12px;
+            bottom: 12px;
+            z-index: 10;
+        }
+
+        #column4li {
+            width: 10px;
+            height: 10px;
+            border: 2px solid transparent;
+            border-radius: 50%;
+            background-color: #fff;
+            vertical-align: middle;
+            cursor: pointer;
+            transition: all .2s;
+            float: left;
+            margin-right: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box fl">
+        <div class="box1 fl">
+            <div class="top">
+                <div class="top-link fl">
+                    <div class="top-nav fl">
+                        <div class="top-nav-lift fl">
+                            <ul class="nav-lift-ul fl">
+                                <li clsss="nav-lift-li"><a class="nav-lift-li" href="javascript:void(0);"><i
+                                            class="iconfont icon-bilibili-fill"></i>主站</a></li>
+                                <li class="nav-lift-li"><a href="javascript:void(0);">番剧</a></li>
+                                <li class="nav-lift-li"><a href="javascript:void(0);">游戏中心</a></li>
+                                <li class="nav-lift-li"><a href="javascript:void(0);">直播</a></li>
+                                <li class="nav-lift-li"><a href="javascript:void(0);">会员购</a></li>
+                                <li class="nav-lift-li"><a href="javascript:void(0);">漫画</a></li>
+                                <li class="nav-lift-li"><a href="javascript:void(0);">赛事</a></li>
+                                <li class="nav-lift-li"><a href="javascript:void(0);" target="_blank"
+                                        class="nav-lift-li-a" aria-describedby="van-popover-5297" tabindex="0">
+                                        <div class="nav-lift-li-box">
+                                            <img src="./img/bw.png" alt="menuName" class="bnj-gif fl">
+
+                                        </div>
+                                    </a>
+
+                                </li>
+                                <li class="nav-lift-li"><span><a href="javascript:void(0);"><i
+                                                class="iconfont icon-shouji"></i>下载app</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-between fl clearfix">
+                            <div class="nav-search fl">
+                                <form class="nav-search-form clearfix">
+
+                                    <input type="text" class="nav-search-input fl">
+                                    <div class="nav_search-btn fl">
+                                        <button type="button" class="iconfont icon-sousuo1"></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="nav-right fr">
+                            <div class="nav-right-one fl">
+                                <div class="right-one-a fl">
+                                    <img src="./img/用户登录.jpg" alt="登录" class="fr">
+                                </div>
+                                <div class="right-one-b fr">
+
+                                    <a href="javascript:void(0);">注册</a>
+                                </div>
+                                <div class="right-one-c fr">
+                                    <a href="javascript:void(0);">登录</a>
+                                </div>
+                            </div>
+                            <div class="right-two fr">
+                                <span class="right-two-span">
+                                    <a href="javascript:void(0);">投稿</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="banner">
+                    <div class="logo fl">
+                        <a href="javascript:void(0);">
+                            <img src="./img/logo.png" alt="bilibili" class="clearfix">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="nav-bottom fl">
+                    <div class="nav-bottom-left fl">
+                        <ul class="nav-bottom-left-ul fl">
+                            <li class="bottom-left-li"><a href="javascript:void(0);">
+                                    <div class="rount rount1"><i class="iconfont icon-shouye1"></i></div><span>首页</span>
+                                </a></li>
+                            <li class="bottom-left-li"><a href="javascript:void(0);">
+                                    <div class="rount rount2"><i class="iconfont icon-fengche1"></i></div>
+                                    <span>动态</span>
+                                </a></li>
+                            <li class="bottom-left-li"><a href="javascript:void(0);">
+                                    <div class="rount rount3"><i class="iconfont icon-paixingbang"></i></div>
+                                    <span>排行榜</span>
+                                </a></li>
+                            <li class="bottom-left-li"><a href="javascript:void(0);">
+                                    <div class="rount rount4"><i class="iconfont icon-pindao1"></i></div><span>频道</span>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <span class="nav-bottom-span fl"></span>
+                    <div class="nav-bottom-center fl clearfix">
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>动画<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>音乐<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>舞蹈<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>知识<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>生活<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>时尚<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>娱乐<em>999+</em></span></a></div>
+                        </span>
+                        <span class="nav-bottom-center-span fl">
+                            <div class="nav-bottom-center-div2"><a
+                                    href="javascript:void(0);"><span>放映厅<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>番剧<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>国创<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>游戏<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>数码<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>鬼畜<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>咨询<em>999+</em></span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-bottom-center-div"><a
+                                    href="javascript:void(0);"><span>影视<em>999+</em></span></a></div>
+                        </span>
+                        <span class="nav-bottom-center-span fl">
+                            <div class="nav-bottom-center-div2"><a class="nav-bottom-center-div2-a"
+                                    href="javascript:void(0);"><span>更多<em></em></span><i
+                                        class="iconfont icon-xia"></i></a>
+                            </div>
+                        </span>
+                    </div>
+                    <span class="nav-bottom-span fl"></span>
+                    <div class="nav-bottom-right fl">
+
+                        <span class="fl">
+                            <div class="nav-botton-right-div"><a href="javascript:void(0);"><svg class="icon fl"
+                                        aria-hidden="true">
+                                        <use xlink:href="#icon-zhuanlan">
+                                        </use>
+                                    </svg><span class="nav-svg-span fl">专栏</span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-botton-right-div"><a href="javascript:void(0);"><svg class="icon fl"
+                                        aria-hidden="true">
+                                        <use xlink:href="#icon-huodong"></use>
+                                    </svg><span class="nav-svg-span fl">活动</span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-botton-right-div2"><a href="javascript:void(0);"><svg class="icon fl"
+                                        aria-hidden="true">
+                                        <use xlink:href="#icon-xiaoheiwu"></use>
+                                    </svg><span class="nav-svg-span fl">小黑屋</span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-botton-right-div"><a href="javascript:void(0);"><svg class="icon fl"
+                                        aria-hidden="true">
+                                        <use xlink:href="#icon-zhibo"></use>
+                                    </svg><span class="nav-svg-span fl">直播</span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-botton-right-div"><a href="javascript:void(0);"><svg class="icon fl"
+                                        aria-hidden="true">
+                                        <use xlink:href="#icon-ketang"></use>
+                                    </svg><span class="nav-svg-span fl">课堂</span></a></div>
+                        </span>
+                        <span class="fl">
+                            <div class="nav-botton-right-div2"><a href="javascript:void(0);"><svg class="icon fl"
+                                        aria-hidden="true">
+                                        <use xlink:href="#icon-music"></use>
+                                    </svg><span class="nav-svg-span fl">音乐PLUS</span></a></div>
+
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="box2 fl">
+            <div class="column1 fl clearfix">
+                <div class="column1-left fl">
+                    <div id="column1-banner">
+                        <div class="column1-banner-box"><a href="javascript:void(0);"><img
+                                    src="./img/轮播图1.jpg@880w_388h_1c_95q" alt="" class="lun8img">
+                            </a></div>
+
+                        <div class="column1-banner-box"><a href="javascript:void(0);"><img
+                                    src="./img/轮播图2.png@880w_388h_1c_95q" alt="" class="lun8img">
+                            </a></div>
+                        <div class="column1-banner-box"><a href="javascript:void(0);"><img
+                                    src="./img/轮播图3.jpg@880w_388h_1c_95q" alt="" class="lun8img">
+                            </a></div>
+                        <div class="column1-banner-box"><a href="javascript:void(0);"><img
+                                    src="./img/轮播图4.jpg@880w_388h_1c_95q" alt="" class="lun8img">
+                            </a></div>
+                        <div class="column1-banner-box"><a href="javascript:void(0);"><img
+                                    src="./img/轮播图5.png@880w_388h_1c_95q" alt="" class="lun8img">
+                            </a></div>
+                    </div>
+                    <div id="biao">
+                        <ul>
+                            <li class="biao_1">·</li>
+                            <li class="biao_1">·</li>
+                            <li class="biao_1">·</li>
+                            <li class="biao_1">·</li>
+                            <li class="biao_1">·</li>
+                        </ul>
+                    </div>
+
+                    <a href="javascript:void(0);"></a>
+                </div>
+                <div class="column1-right fl">
+                    <a href="javascript:void(0);">
+                        <div class="column1-right-box-a column1-right-box1">
+                            <!-- <img src="./img/图片.jpg@412w_232h_1c_100q.jpg" alt="" class="column1-right-box-img"> -->
+                            <span class="column1-right-box-span">
+                                标题</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <div class="column1-right-box-a column1-right-box2">
+                            <!-- <img src="./img/图片2.jpg@412w_232h_1c_100q (1).jpg" alt="" class="column1-right-box-img"> -->
+                            <span class="column1-right-box-span">
+                                标题</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <div class="column1-right-box-a column1-right-box3">
+                            <!-- <img src="./img/图片3.jpg@412w_232h_1c_100q.jpg" alt="" class="column1-right-box-img"> -->
+                            <span class="column1-right-box-span">
+                                标题</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <div class="column1-right-box-b column1-right-box4">
+                            <!-- <img src="./img/图片4.jpg@412w_232h_1c_100q.jpg" alt="" class="column1-right-box-img"> -->
+                            <span class="column1-right-box-span">
+                                标题</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <div class="column1-right-box-b column1-right-box5">
+                            <!-- <img src="./img/图片5.jpg@412w_232h_1c_100q.jpg" alt="" class="column1-right-box-img"> -->
+                            <span class="column1-right-box-span">
+                                标题</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0);">
+                        <div class="column1-right-box-b column1-right-box6">
+                            <!-- <img src="./img/图片6.jpg@412w_232h_1c_100q.jpg" alt="" class="column1-right-box-img"> -->
+                            <span class="column1-right-box-span">
+                                标题</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="column2 fl clearfix">
+                <div class="column2-left">
+                    <header class="column2-box">
+                        <div class="column2-top">
+                            <svg class="icon fl" aria-hidden="true">
+                                <use xlink:href="#icon-tuiguang"></use>
+                            </svg><span class="column2-top-span1">推广</span>
+                            <div class="column2-top2 fl">
+                                <a href="javascript:void(0);"><svg class="icon fl" aria-hidden="true">
+                                        <use xlink:href="#icon-huo1"></use>
+                                    </svg><span class="column2-top-span2">杨超越直播都有啥？</span></a>
+                                <a href="javascript:void(0);"><svg class="icon fl" aria-hidden="true">
+                                        <use xlink:href="#icon-huo1"></use>
+                                    </svg><span class="column2-top-span2">为何夏天的歌这么多？</span></a>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="column2-bottom clearfix">
+                        <div class="column2-bottom-box">
+                            <a href="javascript:void(0)">
+                                <div class="column2-bottom-img">
+                                    <img src="./img/column2-1.jpg@412w_232h_1c_100q.jpg" alt="">
+                                </div>
+                                <div class="column2-bottom-box-div fl">
+                                    <div class="column2-bottom-box-span">请再，给我一些时间……</div>
+                            </a>
+                            <div class="column2-bottom-level clearfix">
+                                <a href="javascript:void(0)">
+                                    <i class="iconfont icon-UPzhu fl"></i>
+                                    <span class="fl">未定事件簿</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column2-bottom-box">
+                        <a href="javascript:void(0)">
+                            <div class="column2-bottom-img">
+                                <img src="./img/column2-2.png@412w_232h_1c_100q.png" alt="">
+                            </div>
+                            <div class="column2-bottom-box-div fl">
+                                <div class="column2-bottom-box-span">集美丽与实力于一身的最强女性战士！</div>
+                        </a>
+                        <div class="column2-bottom-level clearfix">
+                            <a href="javascript:void(0)">
+                                <i class="iconfont icon-UPzhu fl"></i>
+                                <span class="fl">哔哩哔哩番剧</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column2-bottom-box">
+                    <a href="javascript:void(0)">
+                        <div class="column2-bottom-img ">
+                            <img src="./img/column2-3.jpg@412w_232h_1c_100q.jpg" alt="">
+                        </div>
+                        <div class="column2-bottom-box-div fl">
+                            <div class="column2-bottom-box-span ">行业冥灯罗老师的 【锤子手机】用了三年后是这样的</div>
+                    </a>
+                    <div class="column2-bottom-level clearfix">
+                        <a href="javascript:void(0)">
+                            <i class="iconfont icon-UPzhu fl"></i>
+                            <span class="fl">BROWCOFFEE成子</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="column2-bottom-box">
+                <a href="javascript:void(0)">
+                    <div class="column2-bottom-img">
+                        <img src="./img/column2-4.jpg@412w_232h_1c_100q.jpg" alt="">
+                    </div>
+                    <div class="column2-bottom-box-div fl">
+                        <div class="column2-bottom-box-span">【马思超Kido｜七朵马的VLOG】分享“小马哥”的拍摄日常</div>
+                </a>
+                <div class="column2-bottom-level clearfix">
+                    <a href="javascript:void(0)">
+                        <i class="iconfont icon-UPzhu fl"></i>
+                        <span class="fl">马思超Kido</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="column2-right">
+        <div class="column2-right-top"><a href="javascript:void(0)">在线列表</a></div>
+        <a href="javascript:void(0)">
+            <img src="./img/column2-5.jpg" alt="" class="column2-right-img">
+            <i></i>
+        </a>
+    </div>
+    </div>
+    <div class="column3 fl clearfix">
+
+        <div class="column3-left">
+            <header class="column3-box">
+                <div class="column3-top">
+                    <svg class="icon fl" aria-hidden="true">
+                        <use xlink:href="#icon-jiangbei"></use>
+                    </svg><span class="column3-top-span1">电竞赛事</span>
+
+                </div>
+            </header>
+            <div class="column3-bottom clearfix">
+                <div class="column3-bottom-box">
+                    <a href="javascript:void(0)">
+                        <div class="column3-bottom-img">
+                            <img src="./img/3-1.jpg@206w_116h_1c_100q.jpg" alt="">
+                        </div>
+                        <div class="column3-bottom-box-div fl">
+                            <div class="column3-bottom-box-span">FPX vs DMO LPL夏季赛</div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="column3-bottom-box">
+                <a href="javascript:void(0)">
+                    <div class="column3-bottom-img">
+                        <img src="./img/3-2.jpg@206w_116h_1c_100q.jpg" alt="">
+                    </div>
+                    <div class="column3-bottom-box-div fl">
+                        <div class="column3-bottom-box-span">【LPL夏季赛】8月2日 V5 vs JDG</div>
+                </a>
+
+            </div>
+        </div>
+        <div class="column3-bottom-box">
+            <a href="javascript:void(0)">
+                <div class="column3-bottom-img ">
+                    <img src="./img/3-3.jpg@206w_116h_1c_100q.jpg" alt="">
+                </div>
+                <div class="column3-bottom-box-div fl">
+                    <div class="column3-bottom-box-span ">【LPL夏季赛】8月2日 TES vs RNG</div>
+            </a>
+
+        </div>
+    </div>
+    <div id="column3-bottom-box">
+        <a href="javascript:void(0)">
+            <div class="column3-bottom-img">
+                <img src="./img/3-4.jpg@206w_116h_1c_100q.jpg" alt="">
+            </div>
+            <div class="column3-bottom-box-div fl">
+                <div class="column3-bottom-box-span">【王者荣耀世界冠军杯】8月2日 四分之一决赛 MTG vs 武汉eStarPro</div>
+
+            </div>
+    </div>
+    </div>
+
+    </div>
+    <div class="column3-right">
+        <a href="javascript:void(0)">
+            <img src="./img/3-5.png@320w_184h_1c_100q.png" alt="" class="column3-right-img">
+        </a>
+    </div>
+    </div>
+    </div>
+
+    <div class="box3 fl">
+        <a href="javascript:void(0)">
+            <img src="./img/广告图.png" alt="" class="box3-banner">
+        </a>
+
+        <div class="column4 fl clearfix">
+
+            <div class="column4-left">
+                <header class="column4-box">
+                    <div class="column4-top">
+                        <svg class="icon fl" aria-hidden="true">
+                            <use xlink:href="#icon-zhibo"></use>
+                        </svg><span class="column4-top-span1">正在直播</span>
+                        <div class="column4-top-txt fl">当前共有 29781 个在线直播</div>
+                    </div>
+                    <div class="column4-top-btn fr">
+                        <div class="column4-top-btn1 fl">
+                            <svg class="icon fl" aria-hidden="true">
+                                <use xlink:href="#icon-zhuanhuan"></use>
+                            </svg>
+                            <p>换一换</p>
+                        </div>
+                        <div class="column4-top-btn2 fr">
+                            <p>更多</p>
+                            <svg class="icon fr" aria-hidden="true">
+                                <use xlink:href="#icon-you"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                </header>
+                <div class="column4-bottom clearfix">
+                    <div class="column4-bottom-box">
+                        <a href="javascript:void(0)">
+                            <div class="column4-bottom-img">
+                                <img src="./img/3-1.jpg@206w_116h_1c_100q.jpg" alt="">
+                            </div>
+                            <div class="column4-bottom-box-div fl">
+                                <div class="column4-bottom-box-left">
+                                    <img src="./img/头像1.jpg@45w_45h_1c_100q.webp" alt="">
+                                </div>
+                                <div class="column4-bottom-box-right">
+                                    <p class="column4-bottom-box-right-p1">哔哩哔哩英雄联盟赛事</p>
+                                    <p class="column4-bottom-box-right-p2">LNG vs LGD LPL夏季赛</p>
+                                    <p class="column4-bottom-box-right-p3">英雄联盟</p>
+                                </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="column4-bottom-box">
+                    <a href="javascript:void(0)">
+                        <div class="column4-bottom-img">
+                            <img src="./img/4-2.jpg@257w_145h_1c_100q.webp" alt="">
+                        </div>
+                        <div class="column4-bottom-box-div fl">
+                            <div class="column4-bottom-box-left">
+                                <img src="./img/头像2.jpg@45w_45h_1c_100q.webp" alt="">
+                            </div>
+                            <div class="column4-bottom-box-right">
+                                <p class="column4-bottom-box-right-p1">魔法Zc目录</p>
+                                <p class="column4-bottom-box-right-p2">【Zc】新约降临！一起来看看吧！</p>
+                                <p class="column4-bottom-box-right-p3">明日方舟</p>
+                            </div>
+                    </a>
+                </div>
+            </div>
+            <div class="column4-bottom-box">
+                <a href="javascript:void(0)">
+                    <div class="column4-bottom-img">
+                        <img src="./img/4-3.jpg@257w_145h_1c_100q.webp" alt="">
+                    </div>
+                    <div class="column4-bottom-box-div fl">
+                        <div class="column4-bottom-box-left">
+                            <img src="./img/头像3.jpg@45w_45h_1c_100q.webp" alt="">
+                        </div>
+                        <div class="column4-bottom-box-right">
+                            <p class="column4-bottom-box-right-p1">波子汽水小火山</p>
+                            <p class="column4-bottom-box-right-p2">多声线那种你爱不爱</p>
+                            <p class="column4-bottom-box-right-p3">聊天电台</p>
+                        </div>
+                </a>
+            </div>
+        </div>
+        <div id="column4-bottom-box">
+            <a href="javascript:void(0)">
+                <div class="column4-bottom-img">
+                    <img src="./img/4-4.jpg@257w_145h_1c_100q.webp" alt="">
+                </div>
+                <div class="column4-bottom-box-div fl">
+                    <div class="column4-bottom-box-left">
+                        <img src="./img/头像4.jpg@45w_45h_1c_100q.webp" alt="">
+                    </div>
+                    <div class="column4-bottom-box-right">
+                        <p class="column4-bottom-box-right-p1">木有有有</p>
+                        <p class="column4-bottom-box-right-p2">【泥石流】祝月月生日快乐</p>
+                        <p class="column4-bottom-box-right-p3">唱见电台</p>
+                    </div>
+            </a>
+        </div>
+    </div>
+    <div class="column4-bottom-box">
+        <a href="javascript:void(0)">
+            <div class="column4-bottom-img">
+                <img src="./img/4-5.jpg@257w_145h_1c_100q.webp" alt="">
+            </div>
+            <div class="column4-bottom-box-div fl">
+                <div class="column4-bottom-box-left">
+                    <img src="./img/头像5.jpg@45w_45h_1c_100q.webp" alt="">
+                </div>
+                <div class="column4-bottom-box-right">
+                    <p class="column4-bottom-box-right-p1">流萤Zz</p>
+                    <p class="column4-bottom-box-right-p2">悲伤被鸽人</p>
+                    <p class="column4-bottom-box-right-p3">第五人格</p>
+                </div>
+        </a>
+    </div>
+    </div>
+    <div class="column4-bottom-box">
+        <a href="javascript:void(0)">
+            <div class="column4-bottom-img">
+                <img src="./img/4-6.jpg@257w_145h_1c_100q.webp" alt="">
+            </div>
+            <div class="column4-bottom-box-div fl">
+                <div class="column4-bottom-box-left">
+                    <img src="./img/头像6.jpg@45w_45h_1c_100q.webp" alt="">
+                </div>
+                <div class="column4-bottom-box-right">
+                    <p class="column4-bottom-box-right-p1">deer孙侨潞</p>
+                    <p class="column4-bottom-box-right-p2">deer孙侨潞的直播间</p>
+                    <p class="column4-bottom-box-right-p3">和平精英</p>
+                </div>
+        </a>
+    </div>
+    </div>
+    <div class="column4-bottom-box">
+        <a href="javascript:void(0)">
+            <div class="column4-bottom-img">
+                <img src="./img/4-7.jpg@257w_145h_1c_100q.webp" alt="">
+            </div>
+            <div class="column4-bottom-box-div fl">
+                <div class="column4-bottom-box-left">
+                    <img src="./img/头像7.jpg@45w_45h_1c_100q.webp" alt="">
+                </div>
+                <div class="column4-bottom-box-right">
+                    <p class="column4-bottom-box-right-p1">欣赏哥哥</p>
+                    <p class="column4-bottom-box-right-p2">今天会多一个可爱的舰长大人吗</p>
+                    <p class="column4-bottom-box-right-p3">DNF</p>
+                </div>
+        </a>
+    </div>
+    </div>
+    <div id="column4-bottom-box">
+        <a href="javascript:void(0)">
+            <div class="column4-bottom-img">
+                <img src="./img/4-8.jpg@257w_145h_1c_100q.webp" alt="">
+            </div>
+            <div class="column4-bottom-box-div fl">
+                <div class="column4-bottom-box-left">
+                    <img src="./img/头像8.jpg@45w_45h_1c_100q.webp" alt="">
+                </div>
+                <div class="column4-bottom-box-right">
+                    <p class="column4-bottom-box-right-p1">笨尼尼子 </p>
+                    <p class="column4-bottom-box-right-p2">阴间游戏大联播</p>
+                    <p class="column4-bottom-box-right-p3">主机游戏</p>
+                </div>
+        </a>
+    </div>
+    </div>
+
+
+    </div>
+    </div>
+
+
+    <div class="column4-right fl">
+        <div class="column4-right-top fl">
+            <div class="column4-right-top-box">直播排行</div>
+            <div class="column4-right-top-box">关注的主播</div>
+            <div class="column4-right-top-box1">为你推荐</div>
+        </div>
+        <div class="column4-right-box fl">
+            <div class="column4-right-bottom">
+                <div class="column4img"><img src="./img/4-9.jpg@400w_413h_1c_100q.webp" alt=""></div>
+                <div class="column4img"><img src="./img/4-10.png@400w_413h_1c_100q.webp" alt=""></div>
+                <div class="column4img"><img src="./img/4-11.jpg@400w_413h_1c_100q.webp" alt=""></div>
+            </div>
+            <div class="column4-right-li">
+                <ul>
+                    <li id="column4li">·</li>
+                    <li id="column4li">·</li>
+                    <li id="column4li">·</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="column5 fl clearfix">
+        <div class="column5-left">
+            <header class="column5-box">
+                <div class="column5-top">
+                    <svg class="icon fl" aria-hidden="true">
+                        <use xlink:href="#icon-donghua"></use>
+                    </svg><span class="column5-top-span1">动画</span>
+                </div>
+                <div class="column5-top-btn fr">
+                    <div class="column5-top-btn1 fl">
+                        <svg class="icon fl" aria-hidden="true">
+                            <use xlink:href="#icon-zhuanhuan"></use>
+                        </svg>
+                        <p>换一换</p>
+                    </div>
+                    <div class="column5-top-btn2 fr">
+                        <p>更多</p>
+                        <svg class="icon fr" aria-hidden="true">
+                            <use xlink:href="#icon-you"></use>
+                        </svg>
+                    </div>
+                </div>
+            </header>
+            <div class="column5-bottom clearfix">
+                <div class="column5-bottom-box">
+                    <a href="javascript:void(0)">
+                        <div class="column5-bottom-img">
+                            <img src="./img/5-1.jpg@257w_145h_1c_100q.webp" alt="">
+                        </div>
+                        <div class="column5-bottom-box-div fl">
+                            <div class="column5-bottom-box-span">如果把假面骑士的“奇葩”造型元素用在奥特曼身上</div>
+                    </a>
+                    <div class="column5-bottom-level clearfix">
+                        <a href="javascript:void(0)">
+                            <i class="iconfont icon-UPzhu fl"></i>
+                            <span class="fl">forever981028</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="column5-bottom-box">
+                <a href="javascript:void(0)">
+                    <div class="column5-bottom-img">
+                        <img src="./img/5-2.jpg@257w_145h_1c_100q.webp" alt="">
+                    </div>
+                    <div class="column5-bottom-box-div fl">
+                        <div class="column5-bottom-box-span">【jojo】 五 虎 上 jo</div>
+                </a>
+                <div class="column5-bottom-level clearfix">
+                    <a href="javascript:void(0)">
+                        <i class="iconfont icon-UPzhu fl"></i>
+                        <span class="fl">质朴纯真的大饼</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="column5-bottom-box">
+            <a href="javascript:void(0)">
+                <div class="column5-bottom-img ">
+                    <img src="./img/5-3.jpg@257w_145h_1c_100q.webp" alt="">
+                </div>
+                <div class="column5-bottom-box-div fl">
+                    <div class="column5-bottom-box-span ">【竖屏MMD】❀ 女子高中生の日常IV❀</div>
+            </a>
+            <div class="column5-bottom-level clearfix">
+                <a href="javascript:void(0)">
+                    <i class="iconfont icon-UPzhu fl"></i>
+                    <span class="fl">-村菇-</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="column5-bottom-box">
+        <a href="javascript:void(0)">
+            <div class="column5-bottom-img">
+                <img src="./img/5-4.jpg@257w_145h_1c_100q.webp" alt="">
+            </div>
+            <div class="column5-bottom-box-div fl">
+                <div class="column5-bottom-box-span">刹车在哪！直播间奇怪的声音停不下来了!【泠鸢直播精剪】2020年4月11日</div>
+        </a>
+        <div class="column5-bottom-level clearfix">
+            <a href="javascript:void(0)">
+                <i class="iconfont icon-UPzhu fl"></i>
+                <span class="fl">泠鸢yousa创作组官方号</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div class="column5-bottom-box">
+        <a href="javascript:void(0)">
+            <div class="column5-bottom-img">
+                <img src="./img/5-5.jpg@257w_145h_1c_100q.webp" alt="">
+            </div>
+            <div class="column5-bottom-box-div fl">
+                <div class="column5-bottom-box-span">前方高帅！感受这爽爆的节奏感与震撼感的视听盛宴！！</div>
+        </a>
+        <div class="column5-bottom-level clearfix">
+            <a href="javascript:void(0)">
+                <i class="iconfont icon-UPzhu fl"></i>
+                <span class="fl">柑橘味の小百合</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div class="column5-bottom-box">
+        <a href="javascript:void(0)">
+            <div class="column5-bottom-img">
+                <img src="./img/5-6.jpg@257w_145h_1c_100q.webp" alt="">
+            </div>
+            <div class="column5-bottom-box-div fl">
+                <div class="column5-bottom-box-span">假面骑士“万恶之源”名场面，全程高能！来自假面的极致搞笑</div>
+        </a>
+        <div class="column5-bottom-level clearfix">
+            <a href="javascript:void(0)">
+                <i class="iconfont icon-UPzhu fl"></i>
+                <span class="fl">zgiat</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div class="column5-bottom-box">
+        <a href="javascript:void(0)">
+            <div class="column5-bottom-img ">
+                <img src="./img/5-7.jpg@257w_145h_1c_100q.webp" alt="">
+            </div>
+            <div class="column5-bottom-box-div fl">
+                <div class="column5-bottom-box-span ">《风月吻》印象剧</div>
+        </a>
+        <div class="column5-bottom-level clearfix">
+            <a href="javascript:void(0)">
+                <i class="iconfont icon-UPzhu fl"></i>
+                <span class="fl">西瓜JUN粉丝后援会</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div id="column5-bottom-box">
+        <a href="javascript:void(0)">
+            <div class="column5-bottom-img">
+                <img src="./img/5-8.jpg@257w_145h_1c_100q.webp" alt="">
+            </div>
+            <div class="column5-bottom-box-div fl">
+                <div class="column5-bottom-box-span">奇怪的知识增加了</div>
+        </a>
+        <div class="column5-bottom-level clearfix">
+            <a href="javascript:void(0)">
+                <i class="iconfont icon-UPzhu fl"></i>
+                <span class="fl">煌坂纱矢华_念的</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <div class="column5-right fl">
+        <header>
+            <span class="column5-right-top fl">排行榜</span>
+            <div class="column5-right-top-btn fr">
+                <p>更多</p>
+                <svg class="icon fr" aria-hidden="true">
+                    <use xlink:href="#icon-you"></use>
+                </svg>
+            </div>
+        </header>
+        <div class="column5-right-box1"><span class="column5-number1">1</span>
+            <div class="column5-right-box1-div">
+                <div class="column5-right-box1-left fl"><img src="./img/5-9.jpg@140w_79h_1c_100q.webp" alt=""></div>
+                <div class="column5-right-box1-right fl"><a class="column5-right-box1-right-a"
+                        href="javascript:void(0)">
+                        <p>从今天起，你每天都可以见到鹿鸣了</p>
+                    </a>
+                    <span>综合得分：280.0万</span></div>
+            </div>
+        </div>
+        <div class="column5-right-box"><span class="column5-number1">2</span><a class="column5-right-box-a"
+                href="javascript:void(0)">
+                <p>火影1-720集！一口气看完，爆肝1000小时！</p>
+            </a></div>
+        <div class="column5-right-box"><span class="column5-number1">3</span><a class="column5-right-box-a"
+                href="javascript:void(0)">
+                <p>汤显祖的千层套路</p>
+            </a></div>
+        <div class="column5-right-box"><span class="column5-number">4</span><a class="column5-right-box-a"
+                href="javascript:void(0)">
+                <p>请活着看到最后/明日方舟/手书</p>
+            </a></div>
+        <div class="column5-right-box"><span class="column5-number">5</span><a class="column5-right-box-a"
+                href="javascript:void(0)">
+                <p>英雄联盟《绽灵节》伪全员手书 &「花に亡霊」莉莉娅/锐雯/亚索/永恩/阿狸等出场（超治愈ww）</p>
+            </a></div>
+        <div class="column5-right-box"><span class="column5-number">6</span><a class="column5-right-box-a"
+                href="javascript:void(0)">
+                <p>【火影忍者】1-720集！ 一口气看完！ 真爆肝半年的史诗巨作！</p>
+            </a></div>
+        <div class="column5-right-box"><span class="column5-number">7</span><a class="column5-right-box-a"
+                href="javascript:void(0)">
+                <p>如果DIO穿越到了异世界 #1</p>
+            </a></div>
+        <div class="column5-right-box"><span class="column5-number">8</span><a class="column5-right-box-a"
+                href="javascript:void(0)">
+                <p>惊悚猎奇到全网封禁！看完后，你就知道日本禁播动画有多神了！</p>
+            </a></div>
+    </div>
+    </div>
+    </div>
+    <div class="box4 fl">
+        <div class="box4-count fl">
+            <div class="box4-count-lift-a fl">
+                <div><span>bilibili</span></div>
+
+                <ul>
+                    <a href="javascript:void(0)">关于我们</a>
+                    <a href="javascript:void(0)">加入我们</a>
+                    <a href="javascript:void(0)">bilibili认证</a>
+                    <a href="javascript:void(0)">联系我们</a>
+                    <a href="javascript:void(0)">友情链接</a>
+                    <a href="javascript:void(0)">Investor Relations</a>
+                    <a href="javascript:void(0)">用户协议</a>
+                    <a href="javascript:void(0)">隐私政策</a>
+                </ul>
+            </div>
+            <div class="box4-count-lift-b fl">
+                <span>bilibili</span>
+                <ul>
+                    <a href="javascript:void(0)">帮助中心</a>
+                    <a href="javascript:void(0)">侵权申诉</a>
+                    <a href="javascript:void(0)">壁纸站</a>
+                    <a href="javascript:void(0)">高级弹幕</a>
+                    <a href="javascript:void(0)">活动中心</a>
+                    <a href="javascript:void(0)">广告合作</a>
+                    <a href="javascript:void(0)">活动专题页</a>
+                    <a href="javascript:void(0)">用户反馈论坛</a>
+                    <a href="javascript:void(0)">名人堂</a>
+                </ul>
+            </div>
+            <div class="box4-count-lift-c fl">
+                <a href="javascript:void(0)"><svg class="icon fl" aria-hidden="true">
+                        <use xlink:href="#icon-xiazai1">
+                        </use>
+                    </svg>
+                    <p>客户端下载</p>
+                </a>
+                <a href="javascript:void(0)"><svg class="icon fl" aria-hidden="true">
+                        <use xlink:href="#icon-weibo">
+                        </use>
+                    </svg>
+                    <p class="box4-count-lift-c-p">官方微博</p>
+                </a>
+                <a href="javascript:void(0)"><svg class="icon fl" aria-hidden="true">
+                        <use xlink:href="#icon-3-copy">
+                        </use>
+                    </svg>
+                    <p class="box4-count-lift-c-p">官方微信</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="http://at.alicdn.com/t/font_1923320_xwg3156htzk.js"></script>
+<script type="text/javascript">
+    var slid = document.getElementById("column1-banner");
+    //var id = document.getElementById("bt");
+    var imgwidth = document.getElementsByClassName("lun8img");
+    var oli = document.getElementsByTagName("biao_1");
+    //console.log(oli);
+    //console.log(imgwidth );
+    var i = 0;
+    auto();
+    // oli[0].style.cssText = "background:#ff6700;color:#fff;";
+    function auto() {
+
+        time = setInterval(function () {
+            i++;
+            if (i <= 4) {
+                slid.style.left = slid.offsetLeft - 459 + "px";
+                oli[i].style.cssText = "background:#ff6700;color:#fff;";
+                oli[i - 1].style.cssText = "background:none;color:#000;";
+            }
+            else {
+                slid.style.left = "0px";
+                oli[4].style.cssText = "background:none;color:#000;";
+                oli[0].style.cssText = "background:#ff6700;color:#fff;";
+                i = 0;
+            }
+            console.log(i);
+
+        }, 3000)
+
+    }
+
+    for (var j = 0; j <= 4; j++) {
+        //console.log(imgwidth[j].index);
+        imgwidth[j].index = j;
+        oli[j].index = j;
+        oli[j].onmouseover = function () {
+            this.style.cssText = "background:#ff6700;color:#fff;"
+            this.onmouseout = function () {
+                this.style.cssText = "background:none;color:#000;"
+            }
+        }
+
+        oli[j].onclick = function () {
+            clearInterval(time);
+            lun8img = this.index;
+            slid.style.left = -lun8img * 459 + "px";
+            i = lun8img;
+            auto();
+            console.log(i);
+        }
+    }
+
+
+
+
+
+
+    // var slid1 = document.getElementByClassName("column4-right-bottom");
+    // var imgwidth1 = document.getElementsByClassName("column4img");
+    // var oli1 = document.getElementsByTagName("column4li");
+    // var k = 0;
+    // auto();
+    // oli1[0].style.cssText = "background:#ff6700;color:#fff;";
+    // function auto() {
+
+    //     time = setInterval(function () {
+    //         k++;
+    //         if (k <= 2) {
+    //             slid1.style.left = slid.offsetLeft - 265 + "px";
+    //             oli1[k].style.cssText = "background:#ff6700;color:#fff;";
+    //             oli1[k - 1].style.cssText = "background:none;color:#000;";
+    //         }
+    //          else {
+    //             slid1.style.left = "0px";
+    //             oli1[2].style.cssText = "background:none;color:#000;";
+    //             oli1[0].style.cssText = "background:#ff6700;color:#fff;";
+    //             k = 0;
+    //         }
+    //         console.log(k);
+
+    //     }, 3000)
+
+    // }
+
+    // for (var l = 0; l <= 2; l++) {
+    //     imgwidth[l].index = l;
+    //     oli1[l].index = l;
+    //     oli1[l].onmouseover = function () {
+    //         this.style.cssText = "background:#ff6700;color:#fff;"
+    //         this.onmouseout = function () {
+    //             this.style.cssText = "background:none;color:#000;"
+    //         }
+    //     }
+
+    //     oli1[l].onclick = function () {
+    //         clearInterval(time);
+    //         column4img = this.index;
+    //         slid.style.left = -column4img * 265 + "px";
+    //         k = column4img;
+    //         auto();
+    //         console.log(k);
+    //     }
+    // }
+
+</script>
+
+</html>
